@@ -1,4 +1,4 @@
-oh-my-posh --init --shell pwsh --config ~/github/nicoRogalski/dotfiles/ps/roalsky.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config ~/github/dotfiles/ps/nr-blue.omp.json | Invoke-Expression
 
 Import-Module PSReadLine
 Import-Module -Name Terminal-Icons
