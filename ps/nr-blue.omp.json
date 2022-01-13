@@ -16,7 +16,7 @@
         {
           "type": "path",
           "style": "powerline",
-          "powerline_symbol": "\uE0B0",
+          "powerline_symbol": "\uE0B0", 
           "foreground": "#e4e4e4",
           "background": "#3465a4",
           "properties": {
@@ -162,19 +162,6 @@
           "background": "#c4a000",
           "properties": {
             "postfix": " \uF252 "
-          }
-        },
-        {
-          "type": "exit",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "invert_powerline": true,
-          "foreground": "#d3d7cf",
-          "background": "#000000",
-          "background_templates": ["{{ if gt .Code 0 }}#cc2222{{ end }}"],
-          "properties": {
-            "always_enabled": true,
-            "template": "{{ if gt .Code 0 }}{{ .Text }}{{ else }}✔{{ end }}"
           }
         },
         {
